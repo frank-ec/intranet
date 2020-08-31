@@ -1,6 +1,5 @@
 <?php include('includes/enlaces.php') ?>
 <?php include('includes/header.php') ?>
-
 			<nav>
 				<div id="popup">
 				<ul class="nav">
@@ -30,12 +29,18 @@
 			<table border="1" >
 				<td>
 		 			<div class="slider">
-
 		<ul>
-				
 					<!--<video autoplay="autoplay" height="400" width="695" src="./video/ESAMYN.mp4" ></video>-->
 					<!--<video autoplay="autoplay" width="770" src="./video/AgitaTuMundo.mp4"></video>-->
-						<li><img src="./img/central.jpeg"></li>
+					<?php 	
+					if ($uo == 'Hospital Básico Cayambe') {
+                        echo '<li><img src="./img/centralhbc.jpeg"></li>';
+                                }
+                    if ($uo == 'Centro de Salud Tabacundo Tipo C') {
+                        echo '<li><img src="./img/centralcst.jpeg"></li>';
+                                }
+                    ?>
+					
 					<!--<li><img src="./img/campeonato/logoMSP.JPG"></li>
 					<li><img src="./img/campeonato/1.jpg" alt="" ></li>
 					<li><img src="./img/campeonato/7.jpg" alt=""></li>

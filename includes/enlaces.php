@@ -1,6 +1,6 @@
 <?php 
 // Parametriza la UO
-$unidadOperativa = 1; // 1 para HBC, 2 para CST
+$unidadOperativa = 2; // 1 para HBC, 2 para CST
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico

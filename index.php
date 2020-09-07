@@ -12,6 +12,7 @@
 								<li><?php echo $recortar ?> </li>
 								<li><?php echo $controlImpresoras ?> </li>
 								<li><?php echo $dirTelefonico ?> </li>
+								<li><?php echo $zimbra ?> </li>
 								<li><?php echo $cie10 ?> </li>
 								<li><?php echo $contrareferencias ?> </li>
 								<li><?php echo $fondo ?> </li>

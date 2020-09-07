@@ -1,6 +1,6 @@
 <?php 
 // Parametriza la UO
-$unidadOperativa = 2; // 1 para HBC, 2 para CST
+$unidadOperativa = 1; // 1 para HBC, 2 para CST
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico
@@ -44,7 +44,10 @@ if ($unidadOperativa == 1) {
 	$controlImpresoras = '';
 	
     $dirTelefonico = '<a href="agendaTelefonica.php" ><img align="center" border="3" height="50" width="80" src="./img/guia-telefonica.jpg">
-    <span>Directorio Telefónico '.$uo.'</span></a>';							 
+	<span>Directorio Telefónico '.$uo.'</span></a>';
+	
+	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
+	<span>Correo Institucional - Zimbra </span></a>';
   }
 
   if ($unidadOperativa == 2) {
@@ -90,7 +93,10 @@ if ($unidadOperativa == 1) {
 	  		src="./img/control_impresoras.jpg"><span>Control de Impresoras CST.</span></a>';		 
 			 
 	$dirTelefonico = '<a href="agendaTelefonica.php" ><img align="center" border="3" height="50" width="80" src="./img/guia-telefonica.jpg">
-	 		<span>Directorio Telefónico '.$uo.'</span></a>';							 
-  }  
+			 <span>Directorio Telefónico '.$uo.'</span></a>';
+	
+	$zimbra = '<a href="https://mail.17d10.mspz2.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
+			<span>Correo Institucional - Zimbra </span></a>';
+		  }  
 
 ?>

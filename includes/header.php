@@ -2,7 +2,7 @@
 <html lang= "es">
 <head>
 	<meta charset="utf-8">
-	<title>Dirección Distrital 17D1o</title>	
+	<title>Intranet -  Dirección Distrital 17D10</title>	
 	<link rel="stylesheet" href="css/estilos.css">
 
 </head>

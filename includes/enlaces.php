@@ -1,6 +1,6 @@
 <?php 
 // Parametriza la UO
-$unidadOperativa = 1; // 1 para HBC, 2 para CST
+$unidadOperativa = 2; // 1 para HBC, 2 para CST
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico
@@ -48,6 +48,22 @@ if ($unidadOperativa == 1) {
 	
 	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
 	<span>Correo Institucional - Zimbra </span></a>';
+
+	$phuyu = '<a href="https://msp.citas.med.ec/" target="_blank"><img align="center" border="3" height="50" width="80" 
+	 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfGz1N3H-k6eWdqc5FkikuKuD0lOQL1UqpY2KP_f5y31wIqOkRw"><span>Sistema de Consulta de Citas Médicas MSP</span></a>';
+
+	$pras = '<a href="https://sgrdacaa.msp.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/pras_msp.jpg"><span>PRAS - MSP</span></a>';
+
+	$tamizaje = '<a href="https://tamizaje.msp.gob.ec/tamen/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/tamizaje.jpg"><span> SISTEMA DE TAMIZAJE METABÓLICO NEONATAL - TAMEN MSP .</span></a>';
+	
+	$satRec = '<a href="http://181.196.107.78:7474/faces/index.xhtm/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/referencias.png">
+	<span>Sistema de Agendamiento de Turnos para Referencias y Contrarreferencias (SAT-REC)</span></a>';
+	
+	$nubeInterna = '';
+	
+	$nubeExterna = '<a href="http://186.47.99.108/cloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Nube Externa - Owncloud 17D10</span></a>';
+
+
   }
 
   if ($unidadOperativa == 2) {
@@ -68,7 +84,7 @@ if ($unidadOperativa == 1) {
 	$stockFarmacia = $localserver.'/resultados/index.php/s/EBHAtgaq65E857R"><img align="center"
 			 border="3" height="50" width="80" src="./img/farmacia.jpeg"><span>Stock de Farmacia</span></a>';		 
 			 
-	$biblioteca = $localserver.'resultados/index.php/s/ZYJp9AsFNAHCsqS" target="_blank"><img align="center" border="3"
+	$biblioteca = $localserver.'/resultados/index.php/s/ZYJp9AsFNAHCsqS" target="_blank"><img align="center" border="3"
 			  height="50" width="80" src="img/biblioteca1.jpg"><span>Biblioteca Virtual CST</span></a>';
 	
 	$recortar = $localserver.'/images/index.php"><img align="center"
@@ -98,5 +114,20 @@ if ($unidadOperativa == 1) {
 	$zimbra = '<a href="https://mail.17d10.mspz2.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
 			<span>Correo Institucional - Zimbra </span></a>';
 		  }  
+	$phuyu = '<a href="https://msp.citas.med.ec/" target="_blank"><img align="center" border="3" height="50" width="80" 
+	  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfGz1N3H-k6eWdqc5FkikuKuD0lOQL1UqpY2KP_f5y31wIqOkRw"><span>Sistema de Consulta de Citas Médicas MSP</span></a>';
+	  
+	$pras = '<a href="https://sgrdacaa.msp.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/pras_msp.jpg"><span>PRAS - MSP</span></a>';  
+
+	$tamizaje = '<a href="https://tamizaje.msp.gob.ec/tamen/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/tamizaje.jpg"><span> SISTEMA DE TAMIZAJE METABÓLICO NEONATAL - TAMEN MSP .</span></a>';
+
+	$satRec = '<a href="http://181.196.107.78:7474/faces/index.xhtm/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/referencias.png">
+	<span>Sistema de Agendamiento de Turnos para Referencias y Contrarreferencias (SAT-REC)</span></a>';
+
+	$nubeInterna = '<a href="http://172.22.67.200/resultados/index.php" target="_blank"><img align="center" border="3"
+	height="50" width="80" src="img/nextcloud.png"><span>Nube Interna - NextCloud CST</span></a>';;
+	
+	$nubeExterna = '<a href="http://186.47.99.108/cloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Nube Externa - Owncloud 17D10</span></a>';
+
 
 ?>

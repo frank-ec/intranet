@@ -2,7 +2,7 @@
 <?php include('includes/header.php') ?>
 			<nav>
 				<div id="popup">
-				<ul class="nav">
+				<ul class="nav"><li><a href="https://www.gestiondocumental.gob.ec" target="_blank"><img align="center" border="3" height="50" width="80" src="img/quipux.jpg"><span>Sistema de Gestión Documental - QUIPUX</span></a></li>
 								<li><?php echo $tarjetero ?> </li>	
                 				<li><?php echo $triaje ?> </li>
 								<li><?php echo $triajeTV ?> </li>
@@ -18,6 +18,7 @@
 								<li><?php echo $fondo ?> </li>
                 				<li><?php echo $labPedidos ?> </li>
                 				<li><?php echo $labResultados ?> </li>
+<li><a href="https://www.gestiondocumental.gob.ec" target="_blank"><img align="center" border="3" height="50" width="80" src="img/quipux.jpg"><span>Sistema de Gestión Documental - QUIPUX</span></a></li>								  
 <li><a href="herramientas_msp.php"><img align="center" border="3" height="50" width="80" src="./img/herramientas.jpg"><span>Herramientas Informáticas MSP</span></a></li>	
 <li><a href="seguros.php" ><img align="center" border="3" height="50" width="80" src="./img/seguros.jpg"><span>Consulta de Seguros para Planillaje</span></a></li>
 			</ul>	

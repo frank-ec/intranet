@@ -3,6 +3,7 @@
 			<nav>
 				<div id="popup">
 				<ul class="nav"><li><a href="https://www.gestiondocumental.gob.ec" target="_blank"><img align="center" border="3" height="50" width="80" src="img/quipux.jpg"><span>Sistema de Gestión Documental - QUIPUX</span></a></li>
+								<li><?php echo $pras ?> </li>
 								<li><?php echo $tarjetero ?> </li>	
                 				<li><?php echo $triaje ?> </li>
 								<li><?php echo $triajeTV ?> </li>
@@ -10,7 +11,6 @@
 								<li><?php echo $stockFarmacia ?> </li>
 								<li><?php echo $biblioteca ?> </li>
 								<li><?php echo $recortar ?> </li>
-								<li><?php echo $controlImpresoras ?> </li>
 								<li><?php echo $dirTelefonico ?> </li>
 								<li><?php echo $zimbra ?> </li>
 								<li><?php echo $cie10 ?> </li>
@@ -18,9 +18,10 @@
 								<li><?php echo $fondo ?> </li>
                 				<li><?php echo $labPedidos ?> </li>
                 				<li><?php echo $labResultados ?> </li>
-<li><a href="https://www.gestiondocumental.gob.ec" target="_blank"><img align="center" border="3" height="50" width="80" src="img/quipux.jpg"><span>Sistema de Gestión Documental - QUIPUX</span></a></li>								  
+								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdOSnizCI_fyj3HCViaHmnINlg6jDBd8XPZmV36ChQdopbIUQ/viewform"><img align="center" border="3" height="50" width="80" src="./img/eventos.png"><span>Eventos Adversos</span></a></li>	
 <li><a href="herramientas_msp.php"><img align="center" border="3" height="50" width="80" src="./img/herramientas.jpg"><span>Herramientas Informáticas MSP</span></a></li>	
 <li><a href="seguros.php" ><img align="center" border="3" height="50" width="80" src="./img/seguros.jpg"><span>Consulta de Seguros para Planillaje</span></a></li>
+<li><a href="matrices.php" ><img align="center" border="3" height="50" width="80" src="./img/matrices.jpeg"><span>Formularios en Línea</span></a></li>
 			</ul>	
  			</div>
 			</nav>

@@ -129,5 +129,6 @@ if ($unidadOperativa == 1) {
 	
 	$nubeExterna = '<a href="http://186.47.99.108/cloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Nube Externa - Owncloud 17D10</span></a>';
 
+	//
 
 ?>

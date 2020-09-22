@@ -15,7 +15,8 @@
 			</header>
 		 			<div class="slider1">
 					<br><br><br><br><br><br>
-						<center><a href="index.php"><img align="center" height="100" width="600" src="./img/herramientas_informaticas2.jpg"></a>
+					<center>
+					<a href="index.php"><img align="center" height="100" width="600" src="./img/herramientas_informaticas2.jpg"></a>
 					<br><br><br><br><br><br>
 			
 					</div>

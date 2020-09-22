@@ -49,21 +49,9 @@ if ($unidadOperativa == 1) {
 	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
 	<span>Correo Institucional - Zimbra </span></a>';
 
-	$phuyu = '<a href="https://msp.citas.med.ec/" target="_blank"><img align="center" border="3" height="50" width="80" 
-	 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfGz1N3H-k6eWdqc5FkikuKuD0lOQL1UqpY2KP_f5y31wIqOkRw"><span>Sistema de Consulta de Citas Médicas MSP</span></a>';
-
-	$pras = '<a href="https://sgrdacaa.msp.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/pras_msp.jpg"><span>PRAS - MSP</span></a>';
-
-	$tamizaje = '<a href="https://tamizaje.msp.gob.ec/tamen/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/tamizaje.jpg"><span> SISTEMA DE TAMIZAJE METABÓLICO NEONATAL - TAMEN MSP .</span></a>';
+	// Enlaces a matrices en linea HBC
 	
-	$satRec = '<a href="http://181.196.107.78:7474/faces/index.xhtm/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/referencias.png">
-	<span>Sistema de Agendamiento de Turnos para Referencias y Contrarreferencias (SAT-REC)</span></a>';
 	
-	$nubeInterna = '';
-	
-	$nubeExterna = '<a href="http://186.47.99.108/cloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Nube Externa - Owncloud 17D10</span></a>';
-
-
   }
 
   if ($unidadOperativa == 2) {
@@ -116,6 +104,9 @@ if ($unidadOperativa == 1) {
 	
 	$nubeInterna = '<a href="http://172.22.67.200/resultados/index.php" target="_blank"><img align="center" border="3"
 			height="50" width="80" src="img/nextcloud.png"><span>Nube Interna - NextCloud CST</span></a>';
+
+	// Matrices en linea CST
+	$pruebasRapidas = '<a href="https://docs.google.com/spreadsheets/d/1-v7eb73mGWUU_M1Q4LyDRdF9D4cvHIz_huFWQg6nnas/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matríz Pruebas Rápidas</span></a>';
 
 		  }  
 

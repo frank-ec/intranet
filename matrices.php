@@ -10,10 +10,7 @@
 					<center>
                         <?php echo $controlImpresoras ?>
                         <br><br>
-
-						<a href="https://docs.google.com/spreadsheets/d/1-v7eb73mGWUU_M1Q4LyDRdF9D4cvHIz_huFWQg6nnas/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matríz Pruebas Rápidas</span></a>
-								<br><br>
-
+						<?php echo $pruebasRapidas ?>
 					</center>
 				</section>
                 <?php include('includes/footer.php') ?>		

@@ -49,6 +49,17 @@ if ($unidadOperativa == 1) {
 	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
 	<span>Correo Institucional - Zimbra </span></a>';
 
+	$nubeInterna = '';
+
+	$infochanel = $localserver.':8096/"><img align="center"
+	border="3" height="50" width="80" src="./img/emby.jpg"><span>Sala de Espera General </span></a>';
+
+	$consultaExterna = $localserver.'/consultaexterna/"><img align="center"
+	border="3" height="50" width="80" src="./img/llamar.jpeg"><span>Consulta Externa</span></a>';
+
+	$sala1 = $localserver.'/consultaexterna/turnos_ce_sala.html"><img align="center"
+	border="3" height="50" width="80" src="./img/salas.png"><span>Sala de Espera Consulta Externa </span></a>';
+
 	// Enlaces a matrices en linea HBC
 	
 	
@@ -64,7 +75,7 @@ if ($unidadOperativa == 1) {
 	$triaje = $localserver.'/triaje/"><img align="center"
 			 border="3" height="50" width="80" src="./img/triaje.png"><span>Triaje de Emergencia</span></a>';
 	$triajeTV = $localserver.'/triaje/indextv.php"><img align="center"
-			 border="3" height="50" width="80" src="./img/manchester.jpg"><span>Pacientes en Emergencia</span></a>';
+			 border="3" height="50" width="80" src="./img/manchester.jpg"><span>Sala de Espera Emergencia</span></a>';
 
 	$rxResultados = $localserver.'/resultados/"><img align="center"
 			 border="3" height="50" width="80" src="./img/rx.jpeg"><span>Resultados de RX</span></a>';
@@ -105,8 +116,18 @@ if ($unidadOperativa == 1) {
 	$nubeInterna = '<a href="http://172.22.67.200/resultados/index.php" target="_blank"><img align="center" border="3"
 			height="50" width="80" src="img/nextcloud.png"><span>Nube Interna - NextCloud CST</span></a>';
 
+	$infochanel = $localserver.':809/"><img align="center"
+			border="3" height="50" width="80" src="./img/emby.jpg"><span>Sala de Espera General </span></a>';
+
+	$consultaExterna = $localserver.'/consultaexterna/"><img align="center"
+			border="3" height="50" width="80" src="./img/llamar.jpeg"><span>Consulta Externa</span></a>';		
+	
+	$sala1 = $localserver.'/consultaexterna/turnos_ce_sala.html"><img align="center"
+			border="3" height="50" width="80" src="./img/salas.png"><span>Sala de Espera Consulta Externa </span></a>';
+
 	// Matrices en linea CST
 	$pruebasRapidas = '<a href="https://docs.google.com/spreadsheets/d/1-v7eb73mGWUU_M1Q4LyDRdF9D4cvHIz_huFWQg6nnas/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matríz Pruebas Rápidas</span></a>';
+
 
 		  }  
 

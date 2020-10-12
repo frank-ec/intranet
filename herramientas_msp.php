@@ -4,7 +4,7 @@
 			<nav>
 				<div id="popup">
 				<ul class="nav">
-								<li><?php echo $pras ?> </li>	
+								<li><?php echo $contrareferencias ?> </li>
 								<li><?php echo $phuyu ?> </li>	
 								<li><?php echo $satRec ?> </li>	
 								<li><?php echo $tamizaje?> </li>

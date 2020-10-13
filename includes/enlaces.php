@@ -68,6 +68,8 @@ if ($unidadOperativa == 1) {
   if ($unidadOperativa == 2) {
 	$uo = "Centro de Salud Tabacundo Tipo C";
 	$localserver ='<a href="http://172.22.67.200'; // CST servidor local
+	$contingenciaserver ='<a href="http://172.22.67.7'; // CST servidor local
+
 	// Tarjetero indice 
 	$tarjetero = $localserver.'/tarjetero/"><img align="center"
 			 border="3" height="50" width="80" src="./img/tarjetero.jpeg"><span>Tarjetero indice</span></a>';
@@ -116,7 +118,7 @@ if ($unidadOperativa == 1) {
 	$nubeInterna = '<a href="http://172.22.67.200/resultados/index.php" target="_blank"><img align="center" border="3"
 			height="50" width="80" src="img/nextcloud.png"><span>Nube Interna - NextCloud CST</span></a>';
 
-	$infochanel = $localserver.':809/"><img align="center"
+	$infochanel = $contingenciaserver.':8096/"><img align="center"
 			border="3" height="50" width="80" src="./img/emby.jpg"><span>Sala de Espera General </span></a>';
 
 	$consultaExterna = $localserver.'/consultaexterna/"><img align="center"

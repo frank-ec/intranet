@@ -1,6 +1,6 @@
 <?php 
 // Parametriza la UO
-$unidadOperativa = 2; // 1 para HBC, 2 para CST
+$unidadOperativa = 1; // 1 para HBC, 2 para CST
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico
@@ -61,7 +61,10 @@ if ($unidadOperativa == 1) {
 	border="3" height="50" width="80" src="./img/salas.png"><span>Sala de Espera Consulta Externa </span></a>';
 
 	// Enlaces a matrices en linea HBC
-	
+
+	$pruebasRapidas = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSdyZTleAY7MNK-sTvFvG0N31RLePiFbyq1uqp_o29qarGXZLQ/viewform" target="_blank">
+	<img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Reporte de Inconformidades de Laboratorio Clínico</span></a>';
+		
 	
   }
 

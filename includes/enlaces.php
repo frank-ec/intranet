@@ -132,6 +132,7 @@ if ($unidadOperativa == 1) {
 
 	// Matrices en linea CST
 	$pruebasRapidas = '<a href="https://docs.google.com/spreadsheets/d/1-v7eb73mGWUU_M1Q4LyDRdF9D4cvHIz_huFWQg6nnas/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matríz Pruebas Rápidas</span></a>';
+	$pedidosRx = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc5EU_Mo1z8BhXBUbNYhZqeUqhcUN7ZZLab0gWDaKtWYVKuqA/viewform" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Solicitud de estudio radiológico</span></a>';
 
 
 		  }  

@@ -7,12 +7,17 @@
 			<center><h2>Google Docs Online: Hojas de Cálculo , Formularios</h2></center>
 			</fieldset>
 					<section id="contenido" >
-					<center>
-                        <?php echo $controlImpresoras ?>
-                        <br><br>
-						<?php echo $pruebasRapidas ?>
-					</center>
-				</section>
+
+					<?php echo $pedidosRx ?>
+					<br><br>
+					<?php echo $pruebasRapidas ?>
+					<br><br>
+                    <?php echo $controlImpresoras ?>
+                    <br><br>
+						
+					
+
+									</section>
                 <?php include('includes/footer.php') ?>		
 </body>	
 </html>

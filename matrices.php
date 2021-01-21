@@ -10,6 +10,8 @@
 
 					<?php echo $pedidosRx ?>
 					<br><br>
+					<?php echo $pedidosInsumos ?>
+					<br><br>
 					<?php echo $pruebasRapidas ?>
 					<br><br>
                     <?php echo $controlImpresoras ?>

@@ -130,12 +130,17 @@ if ($unidadOperativa == 1) {
 	$sala1 = $localserver.'/consultaexterna/turnos_ce_sala.html"><img align="center"
 			border="3" height="50" width="80" src="./img/salas.png"><span>Sala de Espera Consulta Externa </span></a>';
 
+	$agendamiento = $server17d10.'/cstabacundo/" target="_blank"><img align="center" border="3" height="50" width="80"
+			src="./img/salas.png"><span>Agendamiento CST</span></a>';		
+
 	// Matrices en linea CST
 	$pruebasRapidas = '<a href="https://docs.google.com/spreadsheets/d/1-v7eb73mGWUU_M1Q4LyDRdF9D4cvHIz_huFWQg6nnas/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matríz Pruebas Rápidas</span></a>';
 
 	$pedidosRx = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSc5EU_Mo1z8BhXBUbNYhZqeUqhcUN7ZZLab0gWDaKtWYVKuqA/viewform" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Solicitud de estudio radiológico</span></a>';
 
 	$pedidosInsumos = '<a href="https://docs.google.com/spreadsheets/d/16J4d4zbYUaeUnobt86RB-1Tp8Q6TPlrhXNoJmXTAEWs/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Solicitud de Insumos</span></a>';
+
+	$atencionesEmergencia = '<a href="https://docs.google.com/spreadsheets/d/1oRMTVMFewlInFsGpkeQcpTlbjEeQYXUzdzKQmpUZw3w/edit#gid=757274881" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Parte Diario Atenciones de Emergencia</span></a>';
 
 		  }  
 

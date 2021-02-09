@@ -4,6 +4,7 @@
 			<nav>
 				<div id="popup">
 				<ul class="nav">
+								<li><?php echo $agendamiento ?> </li>
 								<li><?php echo $contrareferencias ?> </li>
 								<li><?php echo $phuyu ?> </li>	
 								<li><?php echo $satRec ?> </li>	

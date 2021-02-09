@@ -7,7 +7,8 @@
 			<center><h2>Google Docs Online: Hojas de Cálculo , Formularios</h2></center>
 			</fieldset>
 					<section id="contenido" >
-
+					<?php echo $atencionesEmergencia ?>
+					<br><br>
 					<?php echo $pedidosRx ?>
 					<br><br>
 					<?php echo $pedidosInsumos ?>

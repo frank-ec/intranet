@@ -20,7 +20,8 @@
 						<br><br>
 								
 
-						<a href="https://aplicaciones.msp.gob.ec/coresalud/app.php/publico/rpis/afiliacion/consulta" target="_blank"><img align="center" border="3" height="50" width="100" src="img/rpis.png"><span> Consulta de calificación de atenciones - R.P.I.S.</span></a>
+						<a href="https://coresalud.msp.gob.ec/coresalud/app.php/publico/rpis/afiliacion/consulta" target="_blank"><img align="center" border="3" height="50" width="100" src="img/rpis.png"><span> Consulta de calificación de atenciones - R.P.I.S.</span></a>
+								 
 						<br><br>
 
 						<a href="http://www.calidadsalud.gob.ec/acess-app-servicio-ciudadano/public/medicinaPrepagada/consulta.jsf" target="_blank"><img align="center" border="3" height="50" width="100" src="http://www.elciudadano.gob.ec/wp-content/uploads/2017/01/C28oVlBWgAAkN8w-680x320.jpg"><span> Beneficiarios de Seguros Privados - A.C.C.E.S.S.</span></a>

@@ -16,6 +16,8 @@
 					<?php echo $pruebasRapidas ?>
 					<br><br>
                     <?php echo $controlImpresoras ?>
+					<?php echo $controlImpresoras ?>
+					
                     <br><br>
 						
 					

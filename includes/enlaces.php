@@ -143,6 +143,8 @@ if ($unidadOperativa == 1) {
 	$atencionesEmergencia = '<a href="https://docs.google.com/spreadsheets/d/1oRMTVMFewlInFsGpkeQcpTlbjEeQYXUzdzKQmpUZw3w/edit#gid=757274881" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Parte Diario Atenciones de Emergencia</span></a>';
 
 	$violenciaGenero = '<a href="https://docs.google.com/spreadsheets/d/1in6GQUXwjgVS4qmWgurNV-u5pv0kP_Aqau0QYDdTbjE/edit#gid=0" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Violencia de Género</span></a>';
+	
+	$obstetricia = '<a href="https://drive.google.com/drive/u/1/folders/12A1OU6TMPqTnYTQznZaEVVuhYI5U9miE" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>Matrices Obstetricia</span></a>';
 
 	
 

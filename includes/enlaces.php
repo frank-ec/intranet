@@ -146,7 +146,9 @@ if ($unidadOperativa == 1) {
 	
 	$obstetricia = '<a href="https://drive.google.com/drive/u/1/folders/12A1OU6TMPqTnYTQznZaEVVuhYI5U9miE" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>Matrices Obstetricia</span></a>';
 
-	
+	$desnutricion =  '<a href="https://docs.google.com/spreadsheets/d/1VkG-FHRuu1UlyTNcZtm2RK_iefzFtT1WfL3PvPO2qPo/edit#gid=0" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>Desnutrición < 59 meses</span></a>';	
+
+	$alfa25 =  '<a href="https://docs.google.com/spreadsheets/d/1n9EcMkPZyUrDWrITsrJCUI9N91aEnhH5c1mYzGlCSiA/edit#gid=1804413424" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>ALFA 25</span></a>';	
 
 
 		  }  

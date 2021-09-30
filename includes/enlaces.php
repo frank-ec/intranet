@@ -150,6 +150,13 @@ if ($unidadOperativa == 1) {
 
 	$alfa25 =  '<a href="https://docs.google.com/spreadsheets/d/1n9EcMkPZyUrDWrITsrJCUI9N91aEnhH5c1mYzGlCSiA/edit#gid=1804413424" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>ALFA 25</span></a>';	
 
+	$prioritarios =  '<a href="https://docs.google.com/spreadsheets/d/1O5wjZVLs_8iy2Ny8wIeFaKIAMkI7Kk3BITjoL6Wvjy4/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>CONSOLIDADO PRIORITARIOS Y VULNERABLES</span></a>';
+
+	$hearts =  '<a href="https://docs.google.com/spreadsheets/d/1cIOJaVqzJpPBHUPYNMfgUnymBnHcVckRUSozZS0kEdQ/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>MATRIZ HEARTS</span></a>';
+
+	$padron =  '<a href="https://docs.google.com/spreadsheets/d/1Ge1IJegglKy0SDuqZqHFu8dk1cU_nkpaLHwtoxp6xcs/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>PADRON NOMINAL</span></a>';
+
+
 
 		  }  
 

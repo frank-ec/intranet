@@ -8,6 +8,12 @@
 			</fieldset>
 					<section id="contenido" >
 					<br><br>
+                    <?php echo $prioritarios ?>
+					<br><br>
+                    <?php echo $hearts ?>
+					<br><br>
+                    <?php echo $padron ?>
+					<br><br>
                     <?php echo $desnutricion ?>
 					<br><br>
                     <?php echo $obstetricia ?>

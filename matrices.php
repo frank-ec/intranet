@@ -8,6 +8,8 @@
 			</fieldset>
 					<section id="contenido" >
 					<br><br>
+                    <?php echo $seguimiento ?>
+					<br><br>
                     <?php echo $prioritarios ?>
 					<br><br>
                     <?php echo $hearts ?>

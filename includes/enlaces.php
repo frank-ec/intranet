@@ -156,7 +156,8 @@ if ($unidadOperativa == 1) {
 
 	$padron =  '<a href="https://docs.google.com/spreadsheets/d/1Ge1IJegglKy0SDuqZqHFu8dk1cU_nkpaLHwtoxp6xcs/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>PADRON NOMINAL</span></a>';
 
-	$seguimiento = '<a href="https://docs.google.com/spreadsheets/d/142fqtqRcj5hZaLXH9U_DOFSnD3NTPHo_4Co9rXbehcA/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Seguimiento - Aislamiento Domiciliario</span></a>';
+	$seguimiento = '<a href="https://docs.google.com/spreadsheets/d/142fqtqRcj5hZaLXH9U_DOFSnD3NTPHo_4Co9rXbehcA/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matriz de Seguimiento -Aislamiento Domiciliario</span></a>';
+	
 
 		  }  
 

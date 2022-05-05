@@ -81,6 +81,10 @@ if ($unidadOperativa == 1) {
 			 border="3" height="50" width="80" src="./img/triaje.png"><span>Triaje de Emergencia</span></a>';
 	$triajeTV = $localserver.'/triaje/indextv.php"><img align="center"
 			 border="3" height="50" width="80" src="./img/manchester.jpg"><span>Sala de Espera Emergencia</span></a>';
+	$cst_emergencia = $localserver.'/emergencia/"><img align="center"
+			 border="3" height="50" width="80" src="./img/emergencia.jpg"><span>Servicio de Emergencia</span></a>';
+
+	//		 
 
 	$rxResultados = $localserver.'/resultados/"><img align="center"
 			 border="3" height="50" width="80" src="./img/rx.jpeg"><span>Resultados de RX</span></a>';

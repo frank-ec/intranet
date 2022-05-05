@@ -5,8 +5,8 @@
 				<ul class="nav"><li><a href="https://www.gestiondocumental.gob.ec" target="_blank"><img align="center" border="3" height="50" width="80" src="img/quipux.jpg"><span>Sistema de Gestión Documental - QUIPUX</span></a></li>
 								<li><?php echo $pras ?> </li>
 								<li><?php echo $tarjetero ?> </li>
-								<li><?php echo $consultaExterna ?> </li>
-                				<li><?php echo $triaje ?> </li>
+								<li><?php echo $triaje ?> </li>
+								<li><?php echo $cst_emergencia ?> </li>
 								<li><a href="salas.php" ><img align="center" border="3" height="50" width="80" src="./img/salas.png"><span>Salas de Espera</span></a></li>								
 								<li><?php echo $rxResultados ?> </li>
 								<li><?php echo $stockFarmacia ?> </li>
@@ -15,7 +15,6 @@
 								<li><?php echo $dirTelefonico ?> </li>
 								<li><?php echo $zimbra ?> </li>
 								<li><?php echo $cie10 ?> </li>
-								
 								<li><?php echo $fondo ?> </li>
                 				<li><?php echo $labPedidos ?> </li>
                 				<li><?php echo $labResultados ?> </li>

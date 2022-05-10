@@ -162,7 +162,8 @@ if ($unidadOperativa == 1) {
 
 	$seguimiento = '<a href="https://docs.google.com/spreadsheets/d/142fqtqRcj5hZaLXH9U_DOFSnD3NTPHo_4Co9rXbehcA/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matriz de Seguimiento -Aislamiento Domiciliario</span></a>';
 	
-
+	$paramedicosProcedimientos = '<a href="https://docs.google.com/spreadsheets/d/1ewZ_ryJolRqu5gUY0Lz-xR6H58pNF4Rbh8bQNMJW_Us/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Procedimientos de Paramedicos</span></a>';
+	
 		  }  
 
    // Enlaces para la pagina de herramientas MSP

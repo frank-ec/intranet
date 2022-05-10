@@ -6,7 +6,10 @@
 			<fieldset>
 			<center><h2>Google Docs Online: Hojas de Cálculo , Formularios</h2></center>
 			</fieldset>
+					
 					<section id="contenido" >
+					<br><br>
+                    <?php echo $paramedicosProcedimientos?>
 					<br><br>
                     <?php echo $seguimiento ?>
 					<br><br>

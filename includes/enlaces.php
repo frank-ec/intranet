@@ -78,7 +78,7 @@ if ($unidadOperativa == 1) {
 			 border="3" height="50" width="80" src="./img/tarjetero.jpeg"><span>Tarjetero indice</span></a>';
 	// Consulta externa 
 	$cexterna = $localserver.'/consultaexterna/"><img align="center"
-			 border="3" height="50" width="80" src="./img/tarjetero.jpeg"><span>Consulta Externa</span></a>';
+			 border="3" height="50" width="80" src="./img/calendario.jpg"><span>Consulta Externa</span></a>';
 			 
 			 
 	/// Triaje de Emergencia

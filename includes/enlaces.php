@@ -4,6 +4,7 @@ $unidadOperativa = 2; // 1 para HBC, 2 para CST
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico
+$serverCst ='<a href="http://190.152.10.78'; // DD17D10  servidor publico
 $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publico
 		
 if ($unidadOperativa == 1) {
@@ -94,7 +95,7 @@ if ($unidadOperativa == 1) {
 	$rxResultados = $localserver.'/resultados/"><img align="center"
 			 border="3" height="50" width="80" src="./img/rx.jpeg"><span>Resultados de RX</span></a>';
 	
-	$stockFarmacia = $localserver.'/resultados/index.php/s/f7G2nrM5JCkNsJy"><img align="center"
+	$stockFarmacia = $serverCst.'/resultados/index.php/s/f7G2nrM5JCkNsJy"><img align="center"
 			 border="3" height="50" width="80" src="./img/farmacia.jpeg"><span>Stock de Farmacia</span></a>';		 
 			 
 	$biblioteca = $localserver.'/resultados/index.php/s/ZYJp9AsFNAHCsqS" target="_blank"><img align="center" border="3"

@@ -128,7 +128,7 @@ if ($unidadOperativa == 1) {
 	$zimbra = '<a href="https://mail.17d10.mspz2.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
 			<span>Correo Institucional - Zimbra </span></a>';
 	
-	$nubeInterna = '<a href="http://172.22.67.200/resultados/index.php" target="_blank"><img align="center" border="3"
+	$nubeInterna = '<a href="http://190.152.10.78/nextcloud/index.php" target="_blank"><img align="center" border="3"
 			height="50" width="80" src="img/nextcloud.png"><span>Nube Interna - NextCloud CST</span></a>';
 
 	$infochanel = $contingenciaserver.':8096/"><img align="center"
@@ -152,7 +152,7 @@ if ($unidadOperativa == 1) {
 
 	$atencionesEmergencia = '<a href="https://docs.google.com/spreadsheets/d/1oRMTVMFewlInFsGpkeQcpTlbjEeQYXUzdzKQmpUZw3w/edit#gid=757274881" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Parte Diario Atenciones de Emergencia</span></a>';
 
-	$violenciaGenero = '<a href="https://docs.google.com/spreadsheets/d/1wiYfS6ltjcQ2qA0C6vAbL1o0-TaQv5Zp/edit?usp=sharing&ouid=107508571411896702952&rtpof=true&sd=true" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Violencia de Género</span></a>';
+	$violenciaGenero = '<a href="https://docs.google.com/spreadsheets/d/1KZoXqWGzjld1ZgNUeT8XpZ8xaf004P9a/edit?usp=sharing&ouid=107508571411896702952&rtpof=true&sd=true" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Violencia de Género</span></a>';
 	
 	$obstetricia = '<a href="https://drive.google.com/drive/u/1/folders/12A1OU6TMPqTnYTQznZaEVVuhYI5U9miE" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span>Matrices Obstetricia</span></a>';
 
@@ -169,6 +169,8 @@ if ($unidadOperativa == 1) {
 	$seguimiento = '<a href="https://docs.google.com/spreadsheets/d/142fqtqRcj5hZaLXH9U_DOFSnD3NTPHo_4Co9rXbehcA/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matriz de Seguimiento -Aislamiento Domiciliario</span></a>';
 	
 	$paramedicosProcedimientos = '<a href="https://docs.google.com/spreadsheets/d/1ewZ_ryJolRqu5gUY0Lz-xR6H58pNF4Rbh8bQNMJW_Us/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Procedimientos de Paramedicos</span></a>';
+
+	$enfermerasProcedimientos = '<a href="https://docs.google.com/spreadsheets/d/1UOGv9MiI6aRSibLXXHmQG3yf7ourIGhzzY-NcBqmVJM/edit?skip_itp2_check=true&pli=1#gid=2118390253" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Procedimientos de Enfermeras</span></a>';
 	
 		  }  
 

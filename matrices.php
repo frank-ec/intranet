@@ -8,7 +8,10 @@
 			</fieldset>
 					
 					<section id="contenido" >
-					<br><br>
+                    <?php echo $enfermerasProcedimientos?>
+					<br><br>						
+					<?php echo $violenciaGenero ?>
+                    <br><br>					
                     <?php echo $paramedicosProcedimientos?>
 					<br><br>
                     <?php echo $seguimiento ?>
@@ -23,8 +26,6 @@
 					<br><br>
                     <?php echo $obstetricia ?>
 					<br><br>
-					<?php echo $violenciaGenero ?>
-                    <br><br>
 					<?php echo $atencionesEmergencia ?>
 					<br><br>
 					<?php echo $pedidosRx ?>

@@ -9,7 +9,7 @@
 					<section id="contenido" >
 					<center>
 
-						<a href="https://www.iess.gob.ec/calificacion-web/pages/public/calificacionAtencion.jsf" target="_blank"><img align="center" border="3" height="50" width="100" src="img/iess.png"><span> Consulta de calificación de atenciones -  IESS.</span></a>
+						<a href="https://app.iess.gob.ec/gestion-calificacion-derecho-web/public/formulariosContacto.jsf" target="_blank"><img align="center" border="3" height="50" width="100" src="img/iess.png"><span> Consulta de calificación de atenciones -  IESS.</span></a>
 								<br><br>
 
 

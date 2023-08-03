@@ -4,7 +4,8 @@ $unidadOperativa = 2; // 1 para HBC, 2 para CST
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico
-$serverCst ='<a href="http://190.152.10.78'; // DD17D10  servidor publico
+$serverCst ='<a href="http://190.152.10.78'; // CST  servidor publico
+$serverCst2 ='<a href="http://190.152.10.75'; // CST  servidor publico
 $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publico
 		
 if ($unidadOperativa == 1) {
@@ -104,19 +105,19 @@ if ($unidadOperativa == 1) {
 	$recortar = $localserver.'/images/index.php"><img align="center"
 			  border="3" height="50" width="80" src="./img/recortar.png"><span>Comprimir Imágenes</span></a>';
 	
-	$cie10 = $serverCst.'/busqueda_cie10"><img align="center"
+	$cie10 = $serverCst2.'/busqueda_cie10"><img align="center"
 			  border="3" height="50" width="80" src="./img/cie10.png"><span>Consulta CIE10</span></a>';		  		  		 
 
-	$contrareferencias = $serverCst.'/contrareferencias/"><img align="center"
+	$contrareferencias = $serverCst2.'/contrareferencias/"><img align="center"
 			 border="3" height="50" width="80" src="./img/contrareferencia.jpeg"><span>Contrareferencias</span></a>';
 	
-	$fondo = $server17d10.'/fondos/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
+	$fondo = $serverCst2.'/fondos/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
 			 src="http://186.47.99.108/fondos/actual.jpeg"><span>Fondo de Pantalla Institucional</span></a>';
 	
 	$labPedidos = $serverorion.'/"><img align="center"
 			 border="3" height="50" width="80" src="./img/pedido.jpeg"><span>Pedidos de Laboratorio</span></a>';  
 		   
-	$labResultados = $serverCst.'/resultados/"><img align="center"
+	$labResultados = $serverCst2.'/resultados/"><img align="center"
 			 border="3" height="50" width="80" src="./img/laboratorio.png"><span>Resultados de Laboratorio</span></a>';		 
 	
 	$controlImpresoras = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlSQaYAqcUF4ZZyXezk6z4CVSZW5XYogb1sRv5VpAW-rBtVw/viewform?usp=sf_link" ><img align="center" border="3" height="50" width="80"

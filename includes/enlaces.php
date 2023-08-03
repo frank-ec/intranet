@@ -27,10 +27,10 @@ if ($unidadOperativa == 1) {
 
 	$recortar = '';
 
-	$cie10 = $server17d10.'/busqueda_cie10"><img align="center"
+	$cie10 = $serverCst.'/busqueda_cie10"><img align="center"
 	border="3" height="50" width="80" src="./img/cie10.png"><span>Consulta CIE10</span></a>';	
 			 
-	$contrareferencias = $server17d10.'/contrareferencias/"><img align="center"
+	$contrareferencias = $serverCst.'/contrareferencias/"><img align="center"
 			 border="3" height="50" width="80" src="./img/contrareferencia.jpeg"><span>Contrareferencias</span></a>';
 	
 	$fondo = $server17d10.'/fondos/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
@@ -39,7 +39,7 @@ if ($unidadOperativa == 1) {
 	$labPedidos = $serverorion.'/"><img align="center"
 			 border="3" height="50" width="80" src="./img/pedido.jpeg"><span>Pedidos de Laboratorio</span></a>';  
 		   
-	$labResultados = $server17d10.'/resultados/"><img align="center"
+	$labResultados = $serverCst.'/resultados/"><img align="center"
 			 border="3" height="50" width="80" src="./img/laboratorio.png"><span>Resultados de Laboratorio</span></a>';		 		 		 
 	
 	$controlImpresoras = '';
@@ -104,10 +104,10 @@ if ($unidadOperativa == 1) {
 	$recortar = $localserver.'/images/index.php"><img align="center"
 			  border="3" height="50" width="80" src="./img/recortar.png"><span>Comprimir Imágenes</span></a>';
 	
-	$cie10 = $server17d10.'/busqueda_cie10"><img align="center"
+	$cie10 = $serverCst.'/busqueda_cie10"><img align="center"
 			  border="3" height="50" width="80" src="./img/cie10.png"><span>Consulta CIE10</span></a>';		  		  		 
 
-	$contrareferencias = $server17d10.'/contrareferencias/"><img align="center"
+	$contrareferencias = $serverCst.'/contrareferencias/"><img align="center"
 			 border="3" height="50" width="80" src="./img/contrareferencia.jpeg"><span>Contrareferencias</span></a>';
 	
 	$fondo = $server17d10.'/fondos/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
@@ -116,7 +116,7 @@ if ($unidadOperativa == 1) {
 	$labPedidos = $serverorion.'/"><img align="center"
 			 border="3" height="50" width="80" src="./img/pedido.jpeg"><span>Pedidos de Laboratorio</span></a>';  
 		   
-	$labResultados = $server17d10.'/resultados/"><img align="center"
+	$labResultados = $serverCst.'/resultados/"><img align="center"
 			 border="3" height="50" width="80" src="./img/laboratorio.png"><span>Resultados de Laboratorio</span></a>';		 
 	
 	$controlImpresoras = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlSQaYAqcUF4ZZyXezk6z4CVSZW5XYogb1sRv5VpAW-rBtVw/viewform?usp=sf_link" ><img align="center" border="3" height="50" width="80"

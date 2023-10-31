@@ -22,7 +22,7 @@
 <li><a href="herramientas_msp.php"><img align="center" border="3" height="50" width="80" src="./img/herramientas.jpg"><span>Herramientas Informáticas MSP</span></a></li>	
 <li><a href="seguros.php" ><img align="center" border="3" height="50" width="80" src="./img/seguros.jpg"><span>Consulta de Seguros para Planillaje</span></a></li>
 <li><a href="matrices.php" ><img align="center" border="3" height="50" width="80" src="./img/matrices.jpeg"><span>Formularios en Línea</span></a></li>
-<li><a href="http://186.47.99.108/cloud/index.php/s/ZmcfKDWxZffMUXJ" ><img align="center" border="3" height="50" width="80" src="./img/higiene.jpeg"><span>EM Higiene de Manos</span></a></li>
+<li><a href="http://186.47.99.108/owncloud/index.php/s/S1zkTgzAVkwSekf" ><img align="center" border="3" height="50" width="80" src="./img/higiene.jpeg"><span>EM Higiene de Manos</span></a></li>
 			</ul>	
  			</div>
 			</nav>

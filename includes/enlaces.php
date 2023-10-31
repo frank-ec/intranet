@@ -187,7 +187,7 @@ if ($unidadOperativa == 1) {
 	$satRec = '<a href="http://181.196.107.78:7474/faces/index.xhtm/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/referencias.png">
 	<span>Sistema de Agendamiento de Turnos para Referencias y Contrarreferencias (SAT-REC)</span></a>';
 
-	$nubeExterna = '<a href="http://186.47.99.108/cloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Nube Externa - Owncloud 17D10</span></a>';
+	$nubeExterna = '<a href="http://186.47.99.108/owncloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Nube Externa - Owncloud 17D10</span></a>';
 
 	
 

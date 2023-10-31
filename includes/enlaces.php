@@ -111,7 +111,7 @@ if ($unidadOperativa == 1) {
 	$contrareferencias = $serverCst2.'/contrareferencias/"><img align="center"
 			 border="3" height="50" width="80" src="./img/contrareferencia.jpeg"><span>Contrareferencias</span></a>';
 	
-	$fondo = $serverCst2.'/fondos/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
+	$fondo = $server17d10.'/public/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
 			 src="http://186.47.99.108/fondos/actual.jpeg"><span>Fondo de Pantalla Institucional</span></a>';
 	
 	$labPedidos = $serverorion.'/"><img align="center"

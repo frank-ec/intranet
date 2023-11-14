@@ -96,7 +96,7 @@ if ($unidadOperativa == 1) {
 	$rxResultados = $serverCst.'/nextcloud/"><img align="center"
 			 border="3" height="50" width="80" src="./img/rx.jpeg"><span>Resultados de RX</span></a>';
 	
-	$stockFarmacia = $serverCst.'/nextcloud/index.php/s/r8tLxPe4BDYsDZi"><img align="center"
+	$stockFarmacia = $serverCst.'/nextcloud/index.php/s/ofJNRroKyr7GksQ"><img align="center"
 			 border="3" height="50" width="80" src="./img/farmacia.jpeg"><span>Stock de Farmacia</span></a>';		 
 			 
 	$biblioteca = $localserver.'/resultados/index.php/s/ZYJp9AsFNAHCsqS" target="_blank"><img align="center" border="3"

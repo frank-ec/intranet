@@ -73,7 +73,7 @@ if ($unidadOperativa == 1) {
   if ($unidadOperativa == 2) {
 	$uo = "Centro de Salud Tabacundo Tipo C";
 	$localserver ='<a href="http://172.22.67.200'; // CST servidor local
-	$contingenciaserver ='<a href="http://172.22.67.7'; // CST servidor local
+	$embyserver ='<a href="http://172.22.67.108'; // CST servidor local de Emby
 
 	// Tarjetero indice 
 	$tarjetero = $localserver.'/tarjetero/"><img align="center"
@@ -132,18 +132,16 @@ if ($unidadOperativa == 1) {
 	$nubeInterna = '<a href="http://190.152.10.78/nextcloud/index.php" target="_blank"><img align="center" border="3"
 			height="50" width="80" src="img/nextcloud.png"><span>Nube Interna - NextCloud CST</span></a>';
 
-	$infochanel = $contingenciaserver.':8096/"><img align="center"
+	$infochanel = $embyserver.':8096/"><img align="center"
 			border="3" height="50" width="80" src="./img/emby.jpg"><span>Sala de Espera General </span></a>';
 
 	$consultaExterna = $localserver.'/consultaexterna/"><img align="center"
 			border="3" height="50" width="80" src="./img/llamar.jpeg"><span>Consulta Externa</span></a>';		
 	
-	$sala1 = $localserver.'/consultaexterna/turnos_ce_sala.html"><img align="center"
+	$sala1 = $localserver.'/consultaexterna/turnos_sala.php"><img align="center"
 			border="3" height="50" width="80" src="./img/salas.png"><span>Sala de Espera Consulta Externa </span></a>';
 
-	$agendamiento = $server17d10.'/cstabacundo/" target="_blank"><img align="center" border="3" height="50" width="80"
-			src="./img/salas.png"><span>Agendamiento CST</span></a>';		
-
+	
 	// Matrices en linea CST
 	$pruebasRapidas = '<a href="https://docs.google.com/spreadsheets/d/1-v7eb73mGWUU_M1Q4LyDRdF9D4cvHIz_huFWQg6nnas/edit?usp=sharing" target="_blank"><img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> Matríz Pruebas Rápidas</span></a>';
 

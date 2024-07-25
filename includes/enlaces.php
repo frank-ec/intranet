@@ -99,7 +99,7 @@ if ($unidadOperativa == 1) {
 	$stockFarmacia = $serverCst.'/nextcloud/index.php/s/ofJNRroKyr7GksQ"><img align="center"
 			 border="3" height="50" width="80" src="./img/farmacia.jpeg"><span>Stock de Farmacia</span></a>';		 
 			 
-	$biblioteca = $localserver.'/resultados/index.php/s/ZYJp9AsFNAHCsqS" target="_blank"><img align="center" border="3"
+	$biblioteca = $serverCst2.'/owncloud/index.php/s/FrAdvfI5QRmKF48" target="_blank"><img align="center" border="3"
 			  height="50" width="80" src="img/biblioteca1.jpg"><span>Biblioteca Virtual CST</span></a>';
 	
 	$recortar = $localserver.'/images/index.php"><img align="center"

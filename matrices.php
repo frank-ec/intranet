@@ -8,7 +8,7 @@
 			</fieldset>
 					
 					<section id="contenido" >
-                    <?php echo $enfermerasProcedimientos?>
+                  
 					<br><br>						
 					<?php echo $violenciaGenero ?>
                     <br><br>					

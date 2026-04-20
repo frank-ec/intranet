@@ -1,0 +1,356 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background:   #1f618d;
+    
+}
+
+#letra  
+{
+    color:red;
+
+}
+
+#contenedor
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #ecf0f1;
+}
+
+header 
+{
+    height: 90px;
+    background: white;
+}
+
+header h1
+{
+    font-size: 30px;
+    text-align: center;
+    line-height: 3px;
+    text-shadow: 1.2px 1.2px 5px #2980b9;
+
+}
+
+h3
+{
+    color: #0B4C5F;
+     text-shadow: 2px 2px #81F781;
+
+}
+
+h4
+{
+    color: blue;
+    text-shadow: 1.2px 1.2px 4px white;
+    background-color: #0B9C9F;
+    box-shadow: 3px 3px blue;
+}
+
+h5
+{
+    color: blue;
+    text-shadow: 1.2px 1.2px 4px orange;
+    box-shadow: 3px 3px blue;
+}
+
+h6
+{
+    font-size: 14px;
+    text-align: right;
+    line-height: 20px;
+    text-shadow: 1.2px 1.2px 4px #2980b9;
+}
+
+
+
+
+/*form, fieldset*/
+
+form
+{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+}
+
+fieldset
+{
+    border-color:  #08298A;
+    background-color: #d6eaf8;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+form fieldset label
+{
+    color: #08298A;
+    font: 20px arial, tahoma, sans-serif;
+    display: block;
+    width: 400px;
+    float: left;
+}
+form fieldset label input
+{
+    width: 320px;
+    float: left;
+}
+
+
+
+
+nav 
+{
+    background: blue
+    height: 20px;
+    float: left;
+}
+
+nav h2
+{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;   
+}
+#contenido
+{
+    width: 60%;
+    float: left;
+    background: #1f618d;
+    margin-top: 5px;
+    margin-right: 5 px;
+}
+
+#favoritos
+{
+    margin: auto;
+    width: 80%;
+    float: left;
+    background: white;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/*#formulario
+{
+    width: 0%;
+    height: 0%;
+
+    float: left;
+    background: white;
+    margin-top: 5px;
+    margin-right: 5 px;
+}*/
+
+#contenido h2
+{
+    font-size: 40px;
+    text-align: center;
+    line-height: 300px;
+}
+aside 
+{
+    width: 40%;
+    height: 360px;
+    background:  #eafaf1;
+    margin-top: 5px;
+    float: right;
+
+}
+aside h2
+{
+    font-size: 30px;
+    text-align: center;
+    line-height: 500px;
+}
+footer
+{
+    background: #bfc9ca;
+    clear: both;
+}
+footer h2
+{
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+
+}
+
+
+
+#header
+{
+    margin: auto;
+    width: 500px;
+    font-family: Arial helvetica, sans-serif;
+}
+
+ul, ol 
+{
+    list-style:none;
+}
+
+.nav li a 
+{
+   /*background-color:#EFFBF5;*/
+    border: #0489B1 6px outset;
+    color: none;
+    text-decoration: none; 
+    padding: 10px 15px;
+    display: block;   
+}
+
+.nav li a:hover 
+{
+    /*background-color: #258;
+    color: white;*/
+    
+    
+    transform: scale(1.6)
+}
+
+.nav > li
+{
+    float: left;
+}
+
+.nav > ol
+{
+    float: left;
+}
+
+
+/* IMAGENES DINAMICAS*/
+
+.slider
+{
+    width: 150%;
+    margin:auto; 
+    overflow: hidden;
+
+}
+
+.slider ul 
+{ 
+    display: flex;
+    padding: 0;
+    width: 500%;
+
+        animation: cambio 80s infinite alternate; 
+}
+
+.slider li 
+{
+    width: 200%
+    list-style: none;
+
+}
+
+.slider img 
+{
+    width: 75%;
+    height: 90%;
+
+}
+/*@keyframes cambio
+{
+
+    0% {margin-left: 50%;}
+    2% {margin-left: -0;}
+
+    20% {margin-left: -58%;}
+    25% {margin-left: -58%;}
+
+    30% {margin-left: -125%;}
+    35% {margin-left: -125%;}
+
+    40% {margin-left: -188%;}
+    45% {margin-left: -188%;}
+
+    50% {margin-left: -248%;}
+    55% {margin-left: -248%;}
+
+    60% {margin-left: -305%;}
+    65% {margin-left: -305%;}
+
+    70% {margin-left: -365%;}
+    75% {margin-left: -365%;}
+
+    80% {margin-left: -430%;}
+    85% {margin-left: -430%;}
+
+    
+
+
+}*/
+
+/*hoverpopups type 1*/
+
+
+#popup a, #popup a:visited {
+    position: relative;
+    display: block;
+    width: 90px;
+    line-height: 20px;
+    text-align: right;
+    padding: 0 10px;
+    margin: 0;
+    border: 0px solid #666;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#popup a span {
+    display: none;
+}
+
+
+
+/* the IE correction rule */
+
+
+#popup a:hover span {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 200px;
+    margin: 0px;
+    padding: 10px;
+    color: blue;
+    font-weight: normal;
+    background: #e5e5e5;
+    text-align: left;
+    border: 1px solid #666;
+}
+ 
+
+
+/*Registro Usuario*/
+
+label, input 
+{
+    /*display: block;*/
+     width: 300px;
+     margin-bottom: 5px;
+}
+
+ 
+
+
+/*Efectos para botones*/
+
+/*fielset*/
+
+

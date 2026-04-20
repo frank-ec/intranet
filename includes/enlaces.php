@@ -93,7 +93,7 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
 	<img align="center" border="3" height="50" width="100" src="img/printer.png"><span>RICOH Aficio MP C2051 - Estadística (10.12.0.245) </span></a>';
 
 	$ip247 = '<a href="http://10.12.0.247/" target="_blank">
-	<img align="center" border="3" height="50" width="100" src="img/printer.png"><span>RICOH  - Consulta Externa (10.12.0.247) </span></a>';
+	<img align="center" border="3" height="50" width="100" src="img/printer.png"><span> RICOH MP 2554 - Consulta Externa (10.12.0.247) </span></a>';
 
 	$ip248 = '<a href="http://10.12.0.248/" target="_blank">
 	<img align="center" border="3" height="50" width="100" src="img/printer.png"><span>Lexmark - Hospitalización (10.12.0.248) </span></a>';

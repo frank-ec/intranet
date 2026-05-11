@@ -62,6 +62,8 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
 	
 
    // Enlaces para la pagina de herramientas MSP
+   $rpis = '<a href="https://rpis.msp.gob.ec/RPS-MSP/Home/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/rpis.png"><span>MSP - RPIS</span></a>';  
+
 
 	$pras = '<a href="https://sgrdacaa.msp.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/pras_msp.jpg"><span>PRAS - MSP</span></a>';  
 

@@ -4,6 +4,7 @@
 			<nav>
 				<div id="popup">
 				<ul class="nav">
+								<li><?php echo $rpis?> </li>
 								<li><?php echo $tamizaje?> </li>
 								<li><?php echo $nubeExterna?> </li>	
 								<li><?php echo $siremcaFarmacia?> </li>	

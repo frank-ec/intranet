@@ -71,88 +71,36 @@
 						<center><h4>NOTAS IMPORTANTES</h4></center><br>
 						<marquee direction="up" scrollamount="1" bgcolor="white"><h3>
 									<div style="text-align:justify">
-													<!--<p><font color="blue">IMPORTANTE: REALIZAR CURSO VIRTUAL</font><br>	 
+													<p><font color="blue">IMPORTANTE: REALIZAR CURSO VIRTUAL</font><br>	 
 													<hr>
 													<br>
 													
-													Se solicita a todo el personal del CST, realizar el curso: 
+													Se solicita a personas que no han cumplido o son de nuevo ingreso al Hospital realizar el curso de: 
 													<br><br>
 
-													<font color="blue">SALUD EN EL TRABAJO.</font>
+													<font color="blue">Interculturalidad, salud y buen trato</font>
 													
 													<br><br> 
 													
-													Fecha máxima de entrega del certificado: <font color="blue">14H00 del día Martes 31 de Julio del 2018.</font> 
+													Fecha máxima de entrega del certificado: <font color="blue">31 de mayo de 2026</font> 
 													<br><br> 
 													
 													Como ingresar:<font color="blue">Hacer clic en el link: "Cursos."</font>
 													<br><br>
-													Clave de matriculación: <font color="blue">trabajo.2018</font>
+													Clave de matriculación: <font color="blue">simayo2026</font>
 													<br><br> 
 
 													<font color="blue">
-													Atentamente:
+													Subir el certificado al link: http://186.47.99.108/owncloud/index.php/s/5Cb1eFz6Hv31pPb
 													<br><br>
-
-													Dr. Carlos Durán Yánez.
 													</font>
 													<br>
-													Administrador Técnico
+													
+													
 													<br> 
-													C.S. Tabacundo Tipo C.
+												
+													</p><br><br>
 
-													</p><br><br>-->
-
-													<p><font color="blue">SIN NOTAS IMPORTANTES</font><br>	 
-													
-                                                    <!--
-													<br>
-													Se solicita a todo el personal del Centro de Salud Tabacundo Tipo C, la revisión de material ESAMyN, que se encuentra en la Biblioteca Virtual de la Intranet<br><br> 
-													-->
-
-													<!--<font color="blue">1. </font>
-													Profilaxis Post-Exposición a la Rabia.
-													<br><br> 
-													
-													Fecha máxima de entrega del certificado: <font color="blue">14H00 del día Miércoles 14 de Febrero del 2018.</font> 
-													<br><br> 
-													
-													Como ingresar:<font color="blue">Hacer clic en el link: "Curso Profilaxis Post-Exposición a la Rabia."</font>
-													<br><br>
-													
-
-													<hr>
-													<br>
-													<font color="blue">2. </font> 
-													Test Violencia de Genero.
-													<br><br> 
-
-													Clave de matriculación: <font color="blue">Vi0l3nc1a2018</font>
-													<br><br> 
-													Fecha máxima de entrega del certificado: <font color="blue">14H00 del día 27 de Febrero del 2018.</font>
-													<br><br> 
-													
-													Como ingresar:<font color="blue">Hacer clic en el link: "Test Violencia de Genero."</font>
-													<br><br>
-													<br><br>
-													<hr><hr><hr>
-													<br><br>
-													
-
-
-
-													<font color="blue">
-													Atentamente:
-													<br><br>
-
-													Dra. Lorena Vizuete J.
-													</font>
-													<br>
-													Administradora Técnica
-													<br> 
-													C.S. Tabacundo Tipo C.
-
-													</p><br><br>-->
 													<hr>
 												</div>
 													  </h3></marquee>
@@ -171,8 +119,8 @@
 					
 					-->
 
-					<a href ="http://capacitacion1.msp.gob.ec/login/index.php" target="_blank"><center><img align="center" border="3" height="40" width="200" src="http://utlajabajio.edu.mx/moodle/pluginfile.php/3691/coursecat/description/cursos.gif"></a></center></a>
-					<br> 	 
+					<a href ="https://capacitacion2.msp.gob.ec/course/index.php?categoryid=4" target="_blank"><center><img align="center" border="3" height="40" width="200" src="http://utlajabajio.edu.mx/moodle/pluginfile.php/3691/coursecat/description/cursos.gif"></a></center></a>
+					
 
 					<!--<h4>1. No hay Cursos Disponibles</h4><br>-->
 

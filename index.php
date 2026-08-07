@@ -78,20 +78,21 @@
 													Se solicita a personas que no han cumplido o son de nuevo ingreso al Hospital realizar el curso de: 
 													<br><br>
 
-													<font color="blue">Interculturalidad, salud y buen trato</font>
+													<font color="blue">Interculturalidad, salud y buen trato / 08-2026</font>
 													
 													<br><br> 
 													
-													Fecha máxima de entrega del certificado: <font color="blue">31 de mayo de 2026</font> 
+													<!-- Fecha máxima de entrega del certificado: <font color="blue">31 de mayo de 2026</font> -->
 													<br><br> 
 													
 													Como ingresar:<font color="blue">Hacer clic en el link: "Cursos."</font>
 													<br><br>
-													Clave de matriculación: <font color="blue">simayo2026</font>
+													Clave de matriculación: <font color="blue">siagosto2026</font>
 													<br><br> 
 
 													<font color="blue">
-													Subir el certificado al link: http://186.47.99.108/owncloud/index.php/s/5Cb1eFz6Hv31pPb
+													Se solicita entregar el certificado del curso aprobado al Sr. Juan Carlos Flores
+													<!-- Subir el certificado al link: http://186.47.99.108/owncloud/index.php/s/5Cb1eFz6Hv31pPb -->
 													<br><br>
 													</font>
 													<br>

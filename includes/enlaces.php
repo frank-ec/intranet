@@ -30,8 +30,8 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
 	border="3" height="50" width="80" src="./img/cie10.png"><span>Consulta CIE10</span></a>';
 		
 
-	$fondo = $server17d10.'/public/actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
-			 src="http://186.47.99.108/public/actual.jpeg"><span>Fondo de Pantalla</span></a>';
+	$fondo = '<a href="actual.jpeg" target="_blank"><img align="center" border="3" height="50" width="80"
+			 src="actual.jpeg"><span>Fondo de Pantalla</span></a>';
 	
 	$labPedidos = $serverorion.'/" target="_blank"><img align="center"
 			 border="3" height="50" width="80" src="./img/pedido.jpeg"><span>Pedidos de Laboratorio</span></a>';  
@@ -40,7 +40,7 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
     $dirTelefonico = '<a href="agendaTelefonica.php" ><img align="center" border="3" height="50" width="80" src="./img/guia-telefonica.jpg">
 	<span>Directorio Telefónico '.$uo.'</span></a>';
 	
-	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="img/zimbra.jpg">
+	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="./img/zimbra.jpg">
 	<span>Correo Institucional - Zimbra </span></a>';
 
 	$nubeInterna = '';

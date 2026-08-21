@@ -78,6 +78,11 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
 	$fisioCst = '<a href="https://docs.google.com/forms/d/e/1FAIpQLSfdV2ZDLSiFwuxNFgYLHYK84iRg95pmtNruBwlQEU7g0fIKrw/viewform" target="_blank">
 	<img align="center" border="3" height="50" width="100" src="img/matrices.jpeg"><span> FORMULARIO DE AGENDAMIENTO REHABILITACIÓN CST</span></a>';
 	
+	// Enlaces ARCSA
+	$arcsaMed = '<a href="https://vigiflow-eforms.who-umc.org/ec/ea" target="_blank"><img align="center" border="3" height="50" width="80" src="img/arcsamed.png"><span>ARCSA - MED</span></a>';
+	$arcsaVac = '<a href="https://vigiflow-eforms.who-umc.org/ec/vac" target="_blank"><img align="center" border="3" height="50" width="80" src="img/arcsavac.png"><span>ARCSA - VAC</span></a>';
+
+
 	// Enlaces impresoras
 	$ip239 = '<a href="http://10.12.0.239/" target="_blank">
 	<img align="center" border="3" height="50" width="100" src="img/printer.png"><span>RICOH Aficio MP 301 - Farmacia (10.12.0.239)</span></a>';

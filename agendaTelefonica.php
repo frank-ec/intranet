@@ -41,77 +41,90 @@ table#t01 {
                                <tr>
                                  <td>Línea 1 </td>
                                  <td>Central Telefónica</td>
-                                 <td></td>
+                                 <td>02-2360072</td>
                                </tr>
                                <tr>
                                  <td>Línea 2</td>
                                  <td>Central Telefónica</td>
-                                 <td></td>
+                                 <td>02-2361053</td>
                                </tr>
                                <tr>
                                  <td>Emergencia</td>
                                  <td>Línea Directa </td>
-                                 <td></td>
+                                 <td>25</td>
                                </tr>
                              </table>
                              <br>
                             
-                              <center><h2>Extensiones Externas</h2></center>
+                              <center><h2>Extensiones Internas</h2></center>
                             <br><br> 
                              <table id="t00">
 
                                <tr>
-                                 <th>Ubicación</th>
-                                 <th>Usuario</th> 
-                                 <th>Extensión</th>
+                                <th>Servicio</th>
+                                <th>Extensión</th>
                                </tr>
                                <tr>
-                               <td>Operadora</td>
-                               <td>Operadora</td>
-                               <td><11></td>
+                               <td>Secretaría</td>
+                               <td>11</td>
                               </tr> 
 
                                <tr>
                                  <td>Dirección</td>
-                                 <td></td>
-                                 <td></td>
-                               </tr>
-                               <tr>
-                                 <td>Información</td>
-                                 <td></td>
-                                 <td></td>
-                               </tr>
-                               <tr>
-                                 <td>Estadistica</td>
-                                 <td></td>
-                                 <td></td>
+                                 
+                                 <td>22</td>
                                </tr>
                                <tr>
                                  <td>Emergencia</td>
-                                 <td></td>
-                                 <td></td>
+                                 <td>25</td>
+                                 
+                               </tr>
+                               <tr>
+                                 <td>Estadistica</td>
+                                 <td>15</td>
+                               </tr>
+                               <tr>
+                                 <td>Farmacia</td>
+                                 <td>23</td>
+                               </tr>
+                              <tr>
+                                 <td>Guardianía</td>
+                                 <td>30</td>
+                               </tr>
+                               <tr>
+                                 <td>Hospitalización</td>
+                                 <td>19</td>
                                </tr>
                                <tr>
                                  <td>Laboratorio</td>
-                                 <td></td>
-                                 <td></td>
-                               </tr>
-                               
-                               <tr>
-                                 <td>Farmacia</td>
-                                 <td></td>
-                                 <td></td>
+                                 <td>17</td>
                                </tr>
                                <tr>
-                                 <td>Vacunas</td>
-                                 <td></td>
-                                 <td></td>
+                                 <td>Nutrición</td>
+                                 <td>33</td>
+                               </tr>
+
+                               <tr>
+                                 <td>Planillaje</td>
+                                 <td>31</td>
                                </tr>
                                <tr>
-                                 <td>Rehabilitación Fìsica</td>
-                                 <td></td>
-                                 <td></td>
+                                 <td>Quirófano</td>
+                                 <td>18</td>
+                               </tr>                               
+                               <tr>
+                                 <td>Rayos X</td>
+                                 <td>24</td>
                                </tr>
+                               <tr>
+                                 <td>Trabajo Social</td>
+                                 <td>21</td>
+                               </tr>
+                               <tr>
+                                 <td>Talento Humano</td>
+                                 <td>27</td>
+                               </tr>
+  
 
                              </table>
                            
@@ -172,32 +185,13 @@ table#t01 {
                                  <td>Médico de Guardia</td>
                                  <td><5></td>
                                </tr>
-                               <tr>
-                                 <td>Laboratorio</td>
-                                 <td>Lic. Silvia Palomo C.</td>
-                                 <td><6></td>
-                               </tr>
-                               
-                               <tr>
-                                 <td>Farmacia</td>
-                                 <td>Dra. Karen Suarez R.</td>
-                                 <td><7></td>
-                               </tr>
+   
                                <tr>
                                  <td>Vacunas</td>
                                  <td>Lic. Patricia Cabascango A.</td>
                                  <td><8></td>
                                </tr>
-                               <tr>
-                                 <td>Rehabilitación Fìsica</td>
-                                 <td>Lic. Kleber Gordon M.</td>
-                                 <td><9></td>
-                               </tr>
-                               <tr>
-                                 <td>Operador</td>
-                                 <td>Operador</td>
-                                 <td><0></td>
-                               </tr>
+
                              </table>
                             
                               <br>

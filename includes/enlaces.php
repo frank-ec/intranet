@@ -40,8 +40,8 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
     $dirTelefonico = '<a href="agendaTelefonica.php" ><img align="center" border="3" height="50" width="80" src="./img/guia-telefonica.jpg">
 	<span>Directorio Telefónico '.$uo.'</span></a>';
 	
-	$zimbra = '<a href="https://mail.hbc.gob.ec:8443/" target="_blank"><img align="center" border="3" height="50" width="80" src="./img/zimbra.jpg">
-	<span>Correo Institucional - Zimbra </span></a>';
+	$zimbra = '<a href="https://mail.hbc.gob.ec/" target="_blank"><img align="center" border="3" height="50" width="80" src="./img/carbonio.png">
+	<span>Correo Institucional</span></a>';
 
 	$nubeInterna = '';
 

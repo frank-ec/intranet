@@ -2,7 +2,7 @@
 
 // Url al servidores externos
 $server17d10 ='<a href="http://186.47.99.108'; // DD17D10  servidor publico
-$serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publico
+$serverorion ='<a href="https://dd17d10.orion-labs.com/portal/login'; // ORION servidor publico
 		
 	$uo = "Hospital Básico Cayambe";
 	$localserver ='<a href="http://10.12.0.12'; // HBC servidor local
@@ -21,6 +21,9 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
 
 	$rxResultados = $server17d10.'/owncloud/"><img align="center"
 			 border="3" height="50" width="80" src="./img/rx.jpeg"><span>Resultados de RX</span></a>';
+	
+	$rxResultadosHbc = $localserver.'/owncloud/index.php/s/2DbxZ3lZHPWwkEw"><img align="center"
+			 border="3" height="50" width="80" src="./img/rx.jpeg"><span>RX HBC</span></a>';
 	
 	$stockFarmacia = '';
 	
@@ -43,8 +46,9 @@ $serverorion ='<a href="https://dd17d10.orion-labs.com'; // ORION servidor publi
 	$zimbra = '<a href="https://mail.hospitalbcayambe.online/" target="_blank"><img align="center" border="3" height="50" width="80" src="./img/carbonio.png">
 	<span>Correo Provisional</span></a>';
 
-	$nubeInterna = '';
+	$nubeInterna = '<a href="http://186.47.99.108/owncloud/" ><img align="center" border="3" height="50" width="80" src="img/nube.jpg"><span>Resultados RX Intranet</span></a>';
 
+	
 	$infochanel = $localserver.':8096/"><img align="center"
 	border="3" height="50" width="80" src="./img/emby.jpg"><span>Sala de Espera General </span></a>';
 

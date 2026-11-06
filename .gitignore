@@ -1,0 +1,4 @@
+db/*.sqlite
+db/*.sqlite-journal
+img/uploads/*
+!img/uploads/.gitkeep

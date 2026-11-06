@@ -1,29 +1,14 @@
-<?php include('includes/enlaces.php') ?>
+<?php require_once('includes/paginas.php') ?>
 <?php include('includes/header.php') ?>
+<?php $contenido = cargar_contenido_pagina(get_db(), 'herramientas_msp') ?>
+	<main>
+		<nav class="menu">
+			<h2 class="text-center">Herramientas Informáticas MSP</h2>
+			<?php render_menu_pagina($contenido) ?>
+		</nav>
 
-			<nav>
-				<div id="popup">
-				<ul class="nav">
-								<li><?php echo $rpis?> </li>
-								<li><?php echo $tamizaje?> </li>
-								<li><?php echo $nubeExterna?> </li>	
-								<li><?php echo $siremcaFarmacia?> </li>	
-								<li><?php echo $siremcaCie10?> </li>	
-
-
-    		</div>	
-			</nav>
-			</header>
-		 			<div class="slider1">
-					<br><br><br><br><br><br>
-					<center>
-					<a href="index.php"><img align="center" height="100" width="600" src="./img/herramientas_informaticas2.jpg"></a>
-					<br><br><br><br><br><br>
-			
-					</div>
-			</aside>
-			<?php include('includes/footer.php') ?>
+		<div class="intro-banner">
+			<a href="index.php"><img height="100" width="600" src="./img/herramientas_informaticas2.jpg" alt="Volver al inicio"></a>
 		</div>
-		
-</body>
-</html>
+	</main>
+<?php include('includes/footer.php') ?>

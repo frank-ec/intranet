@@ -145,14 +145,22 @@ fieldset {
   text-decoration: none;
   text-align: center;
   color: var(--color-text);
-  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+  position: relative;
+  transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out, border-color 0.25s ease-in-out;
 }
 
 .menu-item:hover,
 .menu-item:focus-visible {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  transform: scale(1.04);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
   border-color: var(--color-primary-light);
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu-item {
+    transition: none;
+  }
 }
 
 .menu-item__icon {

@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $id = (int) ($_POST['id'] ?? 0);
         $titulo = trim($_POST['titulo'] ?? '');
         $url = trim($_POST['url'] ?? '');
-        $categoriaId = $_POST['categoria_id'] !== '' ? (int) $_POST['categoria_id'] : null;
+        $categoriaId = ($_POST['categoria_id'] ?? '') !== '' ? (int) $_POST['categoria_id'] : null;
         $tipo = ($_POST['tipo'] ?? 'externo') === 'interno' ? 'interno' : 'externo';
         $abrirNuevaPestana = isset($_POST['abrir_nueva_pestana']) ? 1 : 0;
         $orden = (int) ($_POST['orden'] ?? 0);

@@ -8,8 +8,6 @@
 			<?php render_menu_pagina($contenido) ?>
 		</nav>
 
-		<div class="intro-banner">
-			<a href="index.php"><img height="100" width="600" src="./img/herramientas_informaticas2.jpg" alt="Volver al inicio"></a>
-		</div>
+
 	</main>
 <?php include('includes/footer.php') ?>

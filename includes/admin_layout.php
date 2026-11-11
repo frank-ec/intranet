@@ -19,6 +19,7 @@ function admin_layout_inicio(string $titulo): void {
                 <a href="index.php">Páginas</a>
                 <a href="notas.php">Notas importantes</a>
                 <a href="unidades.php">Unidad Operativa</a>
+                <a href="fondo.php">Fondo de escritorio</a>
             </nav>
             <div>
                 <span>Hola, <?php echo htmlspecialchars($usuario['nombre_completo'] ?: $usuario['usuario']) ?></span>

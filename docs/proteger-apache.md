@@ -13,6 +13,18 @@ Bloquea desde la configuración de Apache el acceso web a los archivos que **no 
 
 Probado con Apache 2.4.58 (el de Ubuntu 24.04). Requiere `sudo`.
 
+## Alcance: no afecta a otros sitios de `/var/www/html`
+
+Si en `/var/www/html/` hay más sitios (por ejemplo `/var/www/html/otrositio/`), esta configuración **no los toca**:
+
+- Todas las reglas usan **rutas absolutas que empiezan por `/var/www/html/intranet/`**. Apache aplica un `<Directory>` solo a esa carpeta y a lo que hay dentro; no a carpetas hermanas ni a otras con nombre parecido (`intranet2`, `intranet-viejo`).
+- **No hay ninguna regla global**: nada sobre `/var/www/html` ni `/var/www`, ni extensiones bloqueadas fuera de la intranet. Otro sitio que tenga su propio `db/`, `includes/` o `.git/` sigue funcionando igual.
+- No se cambia `AllowOverride`, ni módulos, ni el VirtualHost, ni `Options` fuera de la intranet.
+
+> **Regla para no romper esto:** si edita el archivo, no quite el prefijo `/var/www/html/intranet` de ninguna ruta, y no añada bloques `<Files>`, `<FilesMatch>` o `<Location>` **fuera** de un `<Directory>` de la intranet: serían globales.
+
+La sección 4 incluye una prueba para comprobarlo en su servidor.
+
 ---
 
 ## 1. Requisitos
@@ -49,8 +61,8 @@ Pegue este contenido (ajuste la ruta si es distinta):
     Require all denied
 </Directory>
 
-# Repositorio git y documentación
-<DirectoryMatch "^/var/www/html/intranet/(\.git|docs)">
+# Repositorio git y documentación (solo estas carpetas exactas de la intranet)
+<DirectoryMatch "^/var/www/html/intranet/(\.git|docs)(/|$)">
     Require all denied
 </DirectoryMatch>
 
@@ -104,6 +116,21 @@ for u in index.php salas.php admin/login.php css/estilos.css js/notas-carousel.j
 done
 ```
 
+### Comprobar que otros sitios no se ven afectados
+
+Antes del paso 3 anote el código HTTP de algunas URL de **otros sitios** (páginas, `db/`, `.git/`, etc. que existan y sean públicas) y repítalas después de recargar: los códigos deben ser idénticos.
+
+```bash
+# Sustituya por URL reales de sus otros sitios
+URLS="http://localhost/otrositio/ http://localhost/otrositio/index.php http://localhost/otrositio/db/"
+for u in $URLS; do echo -n "$u -> "; curl -s -o /dev/null -w '%{http_code}\n' "$u"; done > /tmp/otros-antes.txt   # ANTES del reload
+# ... paso 3 (a2enconf + reload) ...
+for u in $URLS; do echo -n "$u -> "; curl -s -o /dev/null -w '%{http_code}\n' "$u"; done > /tmp/otros-despues.txt
+diff /tmp/otros-antes.txt /tmp/otros-despues.txt && echo "Otros sitios sin cambios"
+```
+
+Si `diff` muestra diferencias, desactive la protección (sección 6) y revise que las rutas del archivo empiecen por `/var/www/html/intranet`.
+
 Pruebe también en el navegador: portada, una tarjeta con ícono, el login de `admin/` y subir una imagen desde el panel (las imágenes de `img/uploads/` deben verse en la portada).
 
 ## 5. Después de cerrar el acceso
@@ -135,4 +162,14 @@ Pruebe también en el navegador: portada, una tarjeta con ícono, el login de `a
 
 ## Recomendación adicional
 
-La protección más sólida es **sacar la base de datos de `/var/www/html`** (por ejemplo a `/var/www/intranet-data/`) y cambiar la ruta en `includes/db.php`. Así no depende de que esta configuración siga activa. Puede aplicarse junto con esta guía.
+La protección más sólida es **sacar la base de datos de `/var/www/html`**, a `/var/www/intranet-data/`. Así no depende de que esta configuración siga activa. `includes/db.php` ya la usa automáticamente en cuanto esa carpeta existe (si no existe, sigue con `db/intranet.sqlite`). Esa carpeta queda fuera de `/var/www/html`, por lo que tampoco afecta a otros sitios:
+
+```bash
+sudo mkdir -p /var/www/intranet-data
+sudo cp -a /var/www/html/intranet/db/intranet.sqlite /var/www/intranet-data/
+sudo chown -R msp:www-data /var/www/intranet-data
+sudo chmod 770 /var/www/intranet-data
+sudo chmod 660 /var/www/intranet-data/intranet.sqlite
+```
+
+Compruebe que la intranet y el panel funcionan y luego borre la copia antigua (`rm /var/www/html/intranet/db/intranet.sqlite`). La carpeta debe ser escribible por el grupo `www-data` porque SQLite crea archivos temporales junto a la base.

@@ -104,7 +104,7 @@ $paginas = [
             ['titulo' => 'Salas de Espera', 'url' => 'salas.php', 'icono' => 'img/salas.png', 'tipo' => 'interno', 'target_blank' => false],
             ['titulo' => 'Resultados de RX', 'url' => 'http://186.47.99.108/owncloud/', 'icono' => 'img/rx.jpeg', 'tipo' => 'externo', 'target_blank' => false],
             ['titulo' => 'Directorio Telefónico Hospital Básico Cayambe', 'url' => 'agendaTelefonica.php', 'icono' => 'img/guia-telefonica.jpg', 'tipo' => 'interno', 'target_blank' => false],
-            ['titulo' => 'Fondo de Pantalla', 'url' => 'actual.jpeg', 'icono' => 'actual.jpeg', 'tipo' => 'interno', 'target_blank' => true],
+            ['titulo' => 'Fondo de Pantalla', 'url' => 'img/fondo/actual.jpeg', 'icono' => 'img/fondo/actual.jpeg', 'tipo' => 'interno', 'target_blank' => true],
             ['titulo' => 'Pedidos de Laboratorio', 'url' => 'https://dd17d10.orion-labs.com/portal/login/', 'icono' => 'img/pedido.jpeg', 'tipo' => 'externo', 'target_blank' => true],
             ['titulo' => 'Herramientas Informáticas MSP', 'url' => 'herramientas_msp.php', 'icono' => 'img/herramientas.jpg', 'tipo' => 'interno', 'target_blank' => false],
             ['titulo' => 'Consulta de Seguros para Planillaje', 'url' => 'seguros.php', 'icono' => 'img/seguros.jpg', 'tipo' => 'interno', 'target_blank' => false],

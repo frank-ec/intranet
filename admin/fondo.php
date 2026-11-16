@@ -4,13 +4,13 @@ require_once __DIR__ . '/../includes/admin_layout.php';
 
 requerir_login();
 
-const FONDO_RUTA = __DIR__ . '/../actual.jpeg';
+const FONDO_RUTA = __DIR__ . '/../img/fondo/actual.jpeg';
 const FONDO_MAX_BYTES = 8 * 1024 * 1024; // 8 MB
 
 $mensaje = null;
 $tipoMensaje = null;
 
-/** Valida la imagen subida y la guarda como JPEG en actual.jpeg. Lanza RuntimeException si falla. */
+/** Valida la imagen subida y la guarda como JPEG en img/fondo/actual.jpeg. Lanza RuntimeException si falla. */
 function reemplazar_fondo(array $archivo): void {
     if (!isset($archivo['error']) || $archivo['error'] === UPLOAD_ERR_NO_FILE) {
         throw new RuntimeException('Seleccione una imagen.');
@@ -48,7 +48,7 @@ function reemplazar_fondo(array $archivo): void {
     // copy() sobre el archivo existente conserva su propietario y permisos.
     if (!@copy($temporal, FONDO_RUTA)) {
         unlink($temporal);
-        throw new RuntimeException('No se pudo escribir actual.jpeg; revise los permisos del archivo.');
+        throw new RuntimeException('No se pudo escribir img/fondo/actual.jpeg; revise los permisos del archivo.');
     }
     unlink($temporal);
 }
@@ -72,7 +72,7 @@ admin_mensaje_flash($tipoMensaje, $mensaje);
 
 <div class="admin-card">
     <h2>Fondo de escritorio</h2>
-    <p>La imagen que se suba reemplaza a <code>actual.jpeg</code>, que es la que descargan los usuarios desde "Fondo de Pantalla". Se acepta JPG, PNG o WEBP (máx. 8 MB) y se guarda como JPEG.</p>
+    <p>La imagen que se suba reemplaza a <code>img/fondo/actual.jpeg</code>, que es la que descargan los usuarios desde "Fondo de Pantalla". Se acepta JPG, PNG o WEBP (máx. 8 MB) y se guarda como JPEG.</p>
 
     <form class="admin-form" method="post" enctype="multipart/form-data">
         <label for="imagen">Nueva imagen</label>
@@ -87,7 +87,7 @@ admin_mensaje_flash($tipoMensaje, $mensaje);
 <div class="admin-card">
     <h2>Fondo actual</h2>
     <?php if ($version): ?>
-        <img src="../actual.jpeg?v=<?php echo $version ?>" alt="Fondo de escritorio actual" style="max-width:100%; height:auto;">
+        <img src="../img/fondo/actual.jpeg?v=<?php echo $version ?>" alt="Fondo de escritorio actual" style="max-width:100%; height:auto;">
         <p>Última modificación: <?php echo date('d-m-Y H:i', $version) ?></p>
     <?php else: ?>
         <p>No hay fondo cargado.</p>

@@ -91,7 +91,7 @@ admin_mensaje_flash($tipoMensaje, $mensaje);
 
 <div class="admin-card">
     <h2>Crear respaldo</h2>
-    <p>Genera una copia completa de la base de datos (páginas, categorías, enlaces, notas, unidad operativa y usuarios). <strong>No incluye los archivos</strong> de <code>img/uploads/</code> ni <code>actual.jpeg</code>; respáldelos aparte.</p>
+    <p>Genera una copia completa de la base de datos (páginas, categorías, enlaces, notas, unidad operativa y usuarios). <strong>No incluye los archivos</strong> de <code>img/uploads/</code> ni <code>img/fondo/actual.jpeg</code>; respáldelos aparte.</p>
     <form method="post" class="admin-actions">
         <input type="hidden" name="csrf" value="<?php echo $csrf ?>">
         <button type="submit" class="btn" name="accion" value="descargar">Descargar respaldo</button>

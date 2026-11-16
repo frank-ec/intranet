@@ -111,7 +111,7 @@ done
 Y estas deben seguir funcionando con **200** (si no, la configuración es demasiado estricta):
 
 ```bash
-for u in index.php salas.php admin/login.php css/estilos.css js/notas-carousel.js img/logoMSP.gif actual.jpeg; do
+for u in index.php salas.php admin/login.php css/estilos.css js/notas-carousel.js img/logoMSP.gif img/fondo/actual.jpeg; do
   echo -n "$u -> "; curl -s -o /dev/null -w '%{http_code}\n' "http://localhost/intranet/$u"
 done
 ```
